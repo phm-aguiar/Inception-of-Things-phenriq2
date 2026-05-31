@@ -20,8 +20,8 @@ NODES = [
 Vagrant.configure("2") do |config|
   ENV["VAGRANT_DEFAULT_PROVIDER"] = "virtualbox"
 
-  config.vm.box = "cdsn/debian13"
-  config.vm.box_version = "1.0.1"
+  config.vm.box = "bento/debian-13.1"
+  config.vm.box_version = "202510.26.0"
   config.vm.boot_timeout = 600
 
   NODES.each do |node|
