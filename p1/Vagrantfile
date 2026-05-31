@@ -36,6 +36,10 @@ Vagrant.configure("2") do |config|
         v.cpus = 1
       end
 
+      if node.name == "phenriq2SW"
+        machine.vbguest.auto_update = false
+      end
+
       machine.vm.provision "shell", path: node.provision_script
     end
   end
