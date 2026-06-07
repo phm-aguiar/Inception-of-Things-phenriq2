@@ -6,7 +6,7 @@ metadata:
 spec:
   project: iot-project
   source:
-    repoURL: https://github.com/phm-aguiar/Inception-of-Things
+    repoURL: https://github.com/phm-aguiar/Inception-of-Things-phenriq2
     targetRevision: HEAD
     path: p3/manifests
   destination:
