@@ -6,7 +6,7 @@ metadata:
 spec:
   description: Inception of Things project
   sourceRepos:
-  - https://github.com/phm-aguiar/Inception-of-Things
+  - https://github.com/phm-aguiar/Inception-of-Things-phenriq2
   destinations:
   - namespace: dev
     server: https://kubernetes.default.svc
